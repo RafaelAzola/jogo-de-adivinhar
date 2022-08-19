@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Jogo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Squada+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <fieldset>
+            <legend>
+                O JOGO
+            </legend>
+            <section id="section1">
+                <div><img src="Imagens/user.svg" alt="usuário"></div>
+                <div class="campoDeTexto">
+                    <label for="nick">Nick:</label>
+                    <input type="text" id="nick">
+                </div>
+                <div class="campoDeTexto">
+                    <label for="intervalo">Intervalo:</label>
+                    <select id="intervalo">
+                        <option value="opcao1">Opção 1: 1 a 10</option>
+                        <option value="opcao2">Opção 2: 1 a 100</option>
+                        <option value="opcao3">Opção 3: 1 a 200</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit" id="comecar"
+                    style="background-color: #1180E6;">
+                        COMEÇAR
+                    </button>
+                </div>
+            </section>
+            <hr>
+            <section id="section2">
+                <span>
+                    Olá <b id="jogador">Jogador</b>, vamos jogar!<br>
+                    De acordo com a opção de intervalo que você escolheu, descubra o número.
+                </span>
+                <div class="campoDeTexto">
+                    <label for="numero">Digite um número:</label>
+                    <input type="number" id="numero">
+                </div>
+                <div>
+                    <button type="submit" id="jogar"
+                    style="background: #F2890D;">
+                        JOGAR
+                    </button>
+                </div>
+                <span>
+                    <b id="loteria"></b><br>
+                    <div id="contagem"></div>
+                </span>
+            </section>
+        </fieldset>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

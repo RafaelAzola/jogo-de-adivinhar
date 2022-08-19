@@ -1,0 +1,22 @@
+@media(max-width:428px){
+    fieldset{
+        width: 320px;
+        height: 1190px;
+        flex-wrap: wrap;
+    }
+    section{
+        width: 300px;
+    }
+    hr{
+        display: none;
+    }
+    label,button{
+        font-size: 16px;
+    }
+    input, select{
+        width: 300px;
+    }
+    span{
+        font-size: 20px;
+    }
+}
