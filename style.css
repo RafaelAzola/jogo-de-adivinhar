@@ -81,6 +81,12 @@ span{
 #section2{
     height: 400px;
 }
+#comecar{
+    background-color: #7c7f82;
+}
+#jogar{
+    background: #7c7f82
+}
 #numero::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
     display: none;
 }
